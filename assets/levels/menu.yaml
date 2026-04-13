@@ -1,0 +1,69 @@
+static_widgets:
+  - id: "sky"
+    w: 1280
+    h: 720
+    x: -0.67342263
+    y: 1.7217476
+    im_path: "static/sky.png"
+
+  - id: "house"
+    w: 894
+    h: 441
+    x: 46.034039
+    y: 276.65106
+    im_path: "static/house.png"
+
+  - id: "tree"
+    w: 532
+    h: 721
+    x: 1.3617073
+    y: 1.3531933
+    im_path: "static/tree.png"
+
+  - id: "grass"
+    w: 338
+    h: 103
+    x: -4.4170046
+    y: 616.73615
+    im_path: "static/grass.png"
+
+  - id: "grave"
+    w: 897
+    h: 688
+    x: 381.7319
+    y: 31.940432
+    im_path: "static/grave.png"
+
+
+dynamic_widgets:
+  - id: "adventure"
+    w: 407
+    h: 179
+    x: 794.36731
+    y: 54.406281
+    im_path: "dynamic/adventure.png"
+    im_hov_path: "dynamic/adventure_hovered.png"
+
+  - id: "mini-games"
+    w: 384
+    h: 163
+    x: 797.89978
+    y: 182.97139
+    im_path: "dynamic/mini-games.png"
+    im_hov_path: "dynamic/mini-games_hovered.png"
+
+  - id: "puzzle"
+    w: 351
+    h: 150
+    x: 797.92334
+    y: 286.19244
+    im_path: "dynamic/puzzle.png"
+    im_hov_path: "dynamic/puzzle_hovered.png"
+
+  - id: "survival"
+    w: 327
+    h: 151
+    x: 796.65686
+    y: 374.49899
+    im_path: "dynamic/survival.png"
+    im_hov_path: "dynamic/survival_hovered.png"
