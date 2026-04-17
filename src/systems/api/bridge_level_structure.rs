@@ -28,7 +28,7 @@ pub struct DynamicWidget {
 }
 
 #[derive(Debug, Deserialize)]
-pub struct LevelConfig {
+pub struct WidgetConfig {
     pub static_widgets: Vec<StaticWidget>,
     pub dynamic_widgets: Vec<DynamicWidget>,
 }
@@ -65,4 +65,9 @@ pub struct Conveyr {
 pub struct Seed {
     pub id: f32,
     pub image: Sprite
+}
+
+pub struct TimeManager {
+    pub dt: f32,
+
 }

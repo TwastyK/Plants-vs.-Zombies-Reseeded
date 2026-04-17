@@ -1,7 +1,7 @@
 use bevy::prelude::{Button, Changed, ImageNode, Query, With};
 use bevy::prelude::Interaction;
 use bevy::ui::RelativeCursorPosition;
-use crate::systems::structures::menu_level::GameButton;
+use crate::systems::api::menu_level::GameButton;
 
 pub fn interact(
     mut query: Query<

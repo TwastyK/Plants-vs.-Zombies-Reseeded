@@ -9,7 +9,7 @@ use bevy::utils::default;
 use bevy::window::Window;
 use crate::LevelPath;
 use crate::systems::loader;
-use crate::systems::structures::menu_level::GameButton;
+use crate::systems::api::menu_level::GameButton;
 
 pub fn widget_dispatcher(mut commands: Commands, path_pointer: Res<LevelPath>, asset_server: Res<AssetServer>, windows: Query<&Window>) {
     let path = Path::new(&path_pointer.0);
